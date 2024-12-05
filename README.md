@@ -26,9 +26,9 @@ Data is normally read by the test runner and passed to `part_one` and `part_two`
 as parameters. Data is usually represented as an array of strings, each string
 corresponding to a line of text from the data file.
 
-If there is a `transform_data` method in the source file, it is called first. It takes
+If there is a `transform` method in the source file, it is called first. It takes
 the normal lines of data, and emits the data in whatever format makes sense for
-the puzzle. There is no need to call `transform_data` directly; the runner will
+the puzzle. There is no need to call `transform` directly; the runner will
 do that before invoking the puzzle methods.
 
 
